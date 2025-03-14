@@ -1,0 +1,55 @@
+ 
+.line-through {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;  
+    text-decoration-color: black;  
+  }
+   
+  
+  
+
+
+
+
+  .image-container1 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .image-container1 img {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container1:hover img {
+    transform: scale(1.1);  
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;  
+    background: rgba(0, 0, 0, 0.5);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: height 0.4s ease-in-out; 
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .image-container1:hover .overlay {
+    height: 100%;  
+  }
+  .pro{
+    background-color: burlywood;
+  }
+ 
+ 
+   
