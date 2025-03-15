@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import SwipCat from "../../component/swipCat/SwipCat";
-import Navbar1 from "../../component/user/navbar/navbar";
+import Navbar1 from "../../component/user/navbar/Navbar";
 import Footer from "../../component/footer/Footer";
 
 export default function Home(){

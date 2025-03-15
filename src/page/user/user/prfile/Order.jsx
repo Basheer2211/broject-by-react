@@ -6,8 +6,7 @@ export default function Order() {
     const [getorder, setGetorder] = useState([]);
     const [visibleTables, setVisibleTables] = useState({}); // ✅ تخزين حالة كل طلب بشكل مستقل
 
-    // ✅ دالة تفعيل/تعطيل الجدول للطلب المحدد فقط
-    const toggleTable = (orderId) => {
+     const toggleTable = (orderId) => {
         setVisibleTables((prev) => ({
             ...prev,
             [orderId]: !prev[orderId], // ✅ تبديل حالة الطلب الذي تم النقر عليه فقط

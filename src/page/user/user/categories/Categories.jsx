@@ -1,4 +1,4 @@
-import Navbar1  from "../../../../component/user/navbar/navbar";
+import Navbar1  from "../../../../component/user/navbar/Navbar";
 import React, { useEffect, useState } from "react";
 import axios from 'axios'
 import Spinner from 'react-bootstrap/Spinner';

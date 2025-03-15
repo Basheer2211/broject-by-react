@@ -21,7 +21,7 @@ import Info from './page/user/user/prfile/Info'
 import Home from './page/home/Home'
 import Forget from './page/user/forget/Forget'
 import React from 'react'
-import Image from './page/user/user/prfile/image'
+import Image from './page/user/user/prfile/Image'
 import SendCode from './page/user/forget/SendCode'
 import Ss from './page/user/user/prfile/Ss'
  

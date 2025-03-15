@@ -51,7 +51,7 @@ export default function Image(){
         <>
         <Form onSubmit={handleSubmit(ubdateimage)} encType="multipart/form-data" className="border p-5 shadow-lg mt-5 h-50">
             <Form.Group >
-                <Form.Label htmlFor="imageUpload" className="pb-3"><h2>Update your image</h2></Form.Label>
+                <Form.Label htmlFor="imageUpload" className="pb-3"><h2 className="text-black">Update your image</h2></Form.Label>
                 <Form.Control type="file" id="imageUpload" {...register('image')}></Form.Control>
             
             </Form.Group>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Navbar1 from "../../../component/user/navbar/navbar";
+import Navbar1 from "../../../component/user/navbar/Navbar";
 import { useForm } from "react-hook-form";
 import Form from 'react-bootstrap/Form';
 import { ToastContainer, toast } from 'react-toastify';
